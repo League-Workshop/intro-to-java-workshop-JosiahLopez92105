@@ -8,13 +8,13 @@ public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		
 		// START HERE
-	Robot gouko = new Robot();
-	gouko.setSpeed(100);
-	gouko.penDown();
-	gouko.setPenColor(Color.red);
+	Robot goku = new Robot();
+	goku.setSpeed(100);
+	goku.penDown();
+	goku.setPenColor(Color.red);
 	for(   int i=0; i<4 ; i++ ) {
-		gouko.turn(90);
-		gouko.move(100);
+		goku.turn(90);
+		goku.move(100); }
 		
 	
 	}
@@ -22,4 +22,4 @@ public class MyFirstJavaProgram {
 		
 		
 	}
-}
+
